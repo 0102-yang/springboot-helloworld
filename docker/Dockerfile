@@ -1,6 +1,6 @@
 FROM openjdk:16
 
-COPY ./build/libs/*.jar ./
+COPY ./*.jar ./
 
 EXPOSE 8080
 
